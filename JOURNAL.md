@@ -49,3 +49,13 @@ I couldn't get a knob going in KLE, so I just labelled it vol.
 This is a very crude drawing of a cross section
   
 
+## 10/8/2025 - Set up RP2040 in Schematics  
+
+Nothing much, followed the guide from blueprint to give the necessary components for the RP2040 in the schematics, nothing else.
+
+I also went over the official hardware design document to see if I missed anything. Overall, it wasn't much work, 1 hour at most. 
+
+Final Schematic:
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--be2349327674a87218a22b48517af0fe724488af/image.png)
+  
+
