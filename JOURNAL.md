@@ -10,7 +10,7 @@ This is my journal of the design and building process of **HexBoard75**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/291).
 
 
-## 10/7/2025 - Initial Planning.  
+## 10/7/2025 5 PM - Initial Planning.  
 
 ### Overview
 
@@ -49,7 +49,7 @@ I couldn't get a knob going in KLE, so I just labelled it vol.
 This is a very crude drawing of a cross section
   
 
-## 10/8/2025 - Set up RP2040 in Schematics  
+## 10/7/2025 9 PM - Set up RP2040 in Schematics  
 
 Nothing much, followed the guide from blueprint to give the necessary components for the RP2040 in the schematics, nothing else.
 
@@ -58,4 +58,17 @@ I also went over the official hardware design document to see if I missed anythi
 Final Schematic:
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--be2349327674a87218a22b48517af0fe724488af/image.png)
   
+
+## 10/10/2025 - Tried QMK firmware.  
+
+### Reasoning
+
+When I started making the keyboard, I realized I didn't know if I needed a reset button on top of a BOOT button, that creates the RP1-RP2 drive. So, I downloaded QMK, and made a firmware for my hackpad. One thing led to another, and I also ended up setting up VIAL (VIA needed me to push the firmware to a repo, which I didn't like). VIAL is also easier to use. Anyway, it took some time because of firmware issues, and a tutorial not being up to date, plus a limited section on direct pins. It took some time, but eventually, I got it! Here's a picture of it working in VIAL:
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTQyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--829f460cfa122c7a3ca5a315ae7785932423e02c/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTQzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--322ebc21a5b86685b5f1dd2d4c1e372919706e72/image.png)
+
+
+I haven't set anything up yet, but I can setup TapDance, Macros, and more. It wasn't too bad setting this up, and the benefits of having a UI for complicated functions like Macros along with super quick remapping makes me wanna go for QMK over KMK.   
 
