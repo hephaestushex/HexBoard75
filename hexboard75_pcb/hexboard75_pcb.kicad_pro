@@ -613,6 +613,10 @@
     [
       "7246783b-b362-47f5-9d16-b1bbfb180dc3",
       "Root"
+    ],
+    [
+      "47a192a3-dea2-4e12-9476-0e4d0bf6be04",
+      "Per-key RGB"
     ]
   ],
   "text_variables": {}
